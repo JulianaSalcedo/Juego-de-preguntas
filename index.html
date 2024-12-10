@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Juego de Preguntas y Respuestas</h1>
+        
+        <div id="pregunta-container">
+            <p id="pregunta">¿Cuándo acabó la II Guerra Mundial?</p>
+        </div>
+        
+        <div class="opciones">
+            <button class="opcion" onclick="comprobarRespuesta('a')">1945</button>
+            <button class="opcion" onclick="comprobarRespuesta('b')">1932</button>
+            <button class="opcion" onclick="comprobarRespuesta('c')">2006</button>
+            <button class="opcion" onclick="comprobarRespuesta('d')">1665</button>
+        </div>
+
+        <div id="resultado"></div>
+        
+        <div id="siguiente">
+            <button onclick="siguientePregunta()">Siguiente</button>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
